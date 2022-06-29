@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Junior\\OneDrive - Universidad Mariano Gálvez\\Documentos\\Pagina Web\\GrupoA\\GrupoA.csproj": {}
+    "C:\\Users\\Junior\\OneDrive - Universidad Mariano Gálvez\\Documentos\\Pagina Web\\WebAbrego\\GrupoA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Junior\\OneDrive - Universidad Mariano Gálvez\\Documentos\\Pagina Web\\GrupoA\\GrupoA.csproj": {
+    "C:\\Users\\Junior\\OneDrive - Universidad Mariano Gálvez\\Documentos\\Pagina Web\\WebAbrego\\GrupoA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Junior\\OneDrive - Universidad Mariano Gálvez\\Documentos\\Pagina Web\\GrupoA\\GrupoA.csproj",
+        "projectUniqueName": "C:\\Users\\Junior\\OneDrive - Universidad Mariano Gálvez\\Documentos\\Pagina Web\\WebAbrego\\GrupoA.csproj",
         "projectName": "GrupoA",
-        "projectPath": "C:\\Users\\Junior\\OneDrive - Universidad Mariano Gálvez\\Documentos\\Pagina Web\\GrupoA\\GrupoA.csproj",
+        "projectPath": "C:\\Users\\Junior\\OneDrive - Universidad Mariano Gálvez\\Documentos\\Pagina Web\\WebAbrego\\GrupoA.csproj",
         "packagesPath": "C:\\Users\\Junior\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Junior\\OneDrive - Universidad Mariano Gálvez\\Documentos\\Pagina Web\\GrupoA\\obj\\",
+        "outputPath": "C:\\Users\\Junior\\OneDrive - Universidad Mariano Gálvez\\Documentos\\Pagina Web\\WebAbrego\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
