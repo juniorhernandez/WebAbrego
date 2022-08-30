@@ -20,14 +20,14 @@ body {
 form {
   padding: 20px 10px;
   background-color: #ededed;
-  margin: calc(20% + 100px);
+  margin: calc(15% + 100px);
   margin-top: 20px;
   padding-top: 20px;
   margin-bottom: 30px;
 }
 
 input {	
-	width: calc(100% - 15px);
+	width: calc(65% - 15px);
 	padding: 5px;
 	margin: auto;
 	margin-top: 12px;	
@@ -70,9 +70,14 @@ textarea {
 }
 
 label {
-	float: left;
+	float: inline-start;
     padding-left: 10px;
     font-weight: bold;
+}
+
+h6 {
+	float: left;
+	padding-left: 10px;
 }
 
 
