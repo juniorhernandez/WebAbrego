@@ -3,13 +3,23 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Formulario de ingreso de casos</h1>
+    <h1 class="display-7">Formulario de ingreso de casos</h1>
     <form method="post">
-        <input type="email" name="email" placeholder="Email" required="email">
-        <input type="text" name="user" placeholder="Usuario">
 
-        <br></br>
-        <Textarea type="comment" name="comment" rows="5" cols="65" placeholder="Tipo de Ticket"></Textarea>
+        <input type="email" name="email" placeholder="Ingresar Correo" required="">
+        <input type="text" name="user" disable="" placeholder="Usuario">
+        <label class="display-7">Tipo de Servicio</label>
+        <div class="container">
+
+            <label><input type="radio" name="servicio" id="tecnicos">Tecnicos</label>
+            <label><input type="radio" name="servicio" id="desarrollo">Desarrollo</label>
+            <label><input type="radio" name="servicio" id="bd">Base de Datos</label>
+            <label><input type="radio" name="servicio" id="telecomunicaciones">Telecomunicaciones</label>
+            <label><input type="radio" name="servicio" id="otro">Otro</label>
+
+        </div>
+
+        <Textarea type="comment" name="comment" rows="3" cols="65" placeholder="Comentario"></Textarea>
 
         <input type="submit" name="register">
     </form>
