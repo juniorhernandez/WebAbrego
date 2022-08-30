@@ -20,26 +20,27 @@ body {
 form {
   padding: 20px 10px;
   background-color: #ededed;
-  margin: calc(15% + 100px);
+  margin: calc(20% + 100px);
   margin-top: 20px;
   padding-top: 20px;
   margin-bottom: 30px;
 }
 
-input {
-	width: calc(100% - 20px);
-	padding: 9px;
+input {	
+	width: calc(100% - 15px);
+	padding: 5px;
 	margin: auto;
-	margin-top: 12px;
-	font-size: 16px
+	margin-top: 12px;	
+	font-size: 12px;
+	
 }
 
 input[type='submit']{
 	background-color: #48e;
 	color: #fff;
-	width: calc(80% - 20px);
-	margin: 0 10%;
-	margin-top: 15px;
+	width: calc(45% - 20px);
+	margin: 0 5%;
+	margin-top: 10px;
 	border: none;
 }
 
@@ -48,7 +49,7 @@ textarea {
 	padding: 9px;
 	margin: auto;
 	margin-top: 5px;
-	font-size: 16px
+	font-size: 12px
 }
 
 
@@ -67,7 +68,7 @@ textarea {
 	color: #fff
 }
 
-label {
+p {
 	float: left;
     padding-left: 10px;
     font-weight: bold;
