@@ -45,7 +45,7 @@
 </script>
 <script>
     var btn = document.getElementById('btn');
-    btn.addEventListener('click', funtion(e)){
+    btn.addEventListener('click', funtion(e){
         e.preventDefault()
         var name = document.getElementById('name').value;
         var name = document.getElementById('email').value;
@@ -54,13 +54,13 @@
             Host: "smtp.gmail.com",
             Username: "soporte.it.umg2022@gmail.com",
             Password: "soporte$2022",
-            To: 'soporte.it.umg2022@gmail.com',
+            To: "soporte.it.umg2022@gmail.com",
             From: email,
-            Subject: ' ',
-            Body: ' '
+            Subject: " ",
+            Body: " ",
         }).then(
             message => alert(message)
         );
 
-    }
+    })
 </script>
