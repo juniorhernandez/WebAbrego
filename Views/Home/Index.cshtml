@@ -39,28 +39,27 @@
 
             <button id="btn">Enviar</button>
         </form>
+
+        <script src="https://smtpjs.com/v3/smtp.js">
+        </script>
+        <script>
+            var btn = document.getElementById('btn');
+            btn.addEventListener('click', funtion(e){
+                e.preventDefault()
+        var name = document.getElementById('name').value;
+                var name = document.getElementById('email').value;
+                var body = 'name: ' + name + '<br/> email: ' + email;
+                Email.send({
+                    Host: "smtp.gmail.com",
+                    Username: "soporte.it.umg2022@gmail.com",
+                    Password: "soporte$2022",
+                    To: "soporte.it.umg2022@gmail.com",
+                    From: email,
+                }).then(
+                    message => alert(message)
+                );
+
+            })
+        </script>
     </div>
 </div>
-<script src="https://smtpjs.com/v3/smtp.js">
-</script>
-<script>
-    var btn = document.getElementById('btn');
-    btn.addEventListener('click', funtion(e){
-        e.preventDefault()
-        var name = document.getElementById('name').value;
-        var name = document.getElementById('email').value;
-        var body = 'name: ' + name + '<br/> email: ' + email;
-        Email.send({
-            Host: "smtp.gmail.com",
-            Username: "soporte.it.umg2022@gmail.com",
-            Password: "soporte$2022",
-            To: "soporte.it.umg2022@gmail.com",
-            From: email,
-            Subject: " ",
-            Body: " ",
-        }).then(
-            message => alert(message)
-        );
-
-    })
-</script>
