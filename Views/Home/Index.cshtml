@@ -5,40 +5,42 @@
 <div class="text-center">
 
     <div class="form">
-        <form method="POST">
-            <h2 class="display-7">Formulario de ingreso de casos</h2>
+        <div><div>
+    <form method="POST">
+        <h2 class="display-7">Formulario de ingreso de casos</h2>
+
+        <div>
+            <label>Correo:</label><input type="email" name="email" id="email" placeholder="Ingresar Correo"
+                                         required="">
+        </div>
+        <div>
+            <label>Usuario:</label><input type="text" name="usuario" id="name" disable="" placeholder="Usuario">
+        </div>
+
+        <div>
+            <label> Area:</label>
+            <input type="text" name="area" disable="" placeholder="Area" required="">
+        </div>
+
+        <label class="display-7">Tipo de Servicio:</label>
+
+        <div class="container">
 
             <div>
-                <label>Correo:</label><input type="email" name="email" id="email" placeholder="Ingresar Correo"
-                    required="">
-            </div>
-            <div>
-                <label>Usuario:</label><input type="text" name="usuario" id="name" disable="" placeholder="Usuario">
-            </div>
-
-            <div>
-                <label> Area:</label>
-                <input type="text" name="area" disable="" placeholder="Area" required="">
+                <h6><input type="radio" name="servicio" id="tecnicos">Tecnicos</h6>
+                <h6><input type="radio" name="servicio" id="desarrollo">Desarrollo</h6>
+                <h6><input type="radio" name="servicio" id="basedatos">Base de Datos</h6>
+                <h6><input type="radio" name="servicio" id="telecomunicaciones">Telecomunicaciones</h6>
+                <h6><input type="radio" name="servicio" id="otro"> Otro</h6>
             </div>
 
-            <label class="display-7">Tipo de Servicio:</label>
+        </div>
 
-            <div class="container">
+        <Textarea type="comment" name="comment" rows="3" cols="65" placeholder="Comentario"></Textarea>
 
-                <div>
-                    <h6><input type="radio" name="servicio" id="tecnicos">Tecnicos</h6>
-                    <h6><input type="radio" name="servicio" id="desarrollo">Desarrollo</h6>
-                    <h6><input type="radio" name="servicio" id="basedatos">Base de Datos</h6>
-                    <h6><input type="radio" name="servicio" id="telecomunicaciones">Telecomunicaciones</h6>
-                    <h6><input type="radio" name="servicio" id="otro"> Otro</h6>
-                </div>
-
-            </div>
-
-            <Textarea type="comment" name="comment" rows="3" cols="65" placeholder="Comentario"></Textarea>
-
-            <button id="btn">Enviar</button>
-        </form>
+        <button id="btn">Enviar</button>
+    </form>
+</div></div>
 
         <script src="https://smtpjs.com/v3/smtp.js">
         </script>
