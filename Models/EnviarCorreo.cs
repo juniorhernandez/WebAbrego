@@ -29,7 +29,7 @@ namespace Gestor_casos.Utilidades
                 var Direccion_Correo = Direccion_DCorreo;
 
                 mensaje.To.Add(new MailAddress(Direccion_Correo));
-                mensaje.CC.Add(new MailAddress("miguel.antonio.garcia@gmail.com"));
+                mensaje.CC.Add(new MailAddress("juniorh2911@gmail.com"));
 
                 mensaje.From = new MailAddress(remitente, nombre);
 
